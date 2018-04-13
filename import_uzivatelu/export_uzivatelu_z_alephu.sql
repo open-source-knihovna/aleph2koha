@@ -5,11 +5,11 @@ substr(Z303_NAME, instr(Z303_NAME, ' ') + 1)    as firstname,
 z303.Z303_TITLE as title,
 '' as OTHERNAMES,
 '' as initials,
-'Dr. Machaty 11/225' as streetnumber, -- musí se dodělat lepší parsování
+'11/225' as streetnumber, -- musí se dodělat lepší parsování
 '' as streettype,
-'' as address,
-'' as address2,
-'Malý Studenec' as city, -- musí se dodělat lepší parsování
+'Dr. Machatého' as address,
+'Malý Studenec' as address2,
+'Liberec' as city, -- musí se dodělat lepší parsování
 '' as state,
 '35601' as zipcode,
 '' as country,
