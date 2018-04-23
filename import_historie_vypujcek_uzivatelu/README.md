@@ -17,7 +17,7 @@ Pomocí tohoto příkazu vyexportujeme data ve struktuře pro tabulku, kterou js
 
 ### 3. import exportovaných dat do KOHY
 
-Soubor s daty nahrajeme na server s KOHOu do adresáře /tmp/ a spustím0mysql na serveru.
+Soubor s daty nahrajeme na server s KOHOu do adresáře /tmp/ a spustím mysql na serveru.
 
 ```bash
 root@koha:~# mysql
@@ -119,5 +119,5 @@ tmp_historie_uzivatelu.borrowernumber = borrowers.userid
 and items.barcode = tmp_historie_uzivatelu.z30_barcode;
 ```sql
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNDg1MzMwM119
+eyJoaXN0b3J5IjpbLTIzNjk4MjA3M119
 -->
