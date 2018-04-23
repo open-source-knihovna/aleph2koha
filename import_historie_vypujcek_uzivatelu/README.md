@@ -118,6 +118,3 @@ where
 tmp_historie_uzivatelu.borrowernumber = borrowers.userid
 and items.barcode = tmp_historie_uzivatelu.z30_barcode;
 ```sql
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc2ODkyNjkzXX0=
--->
