@@ -117,4 +117,4 @@ tmp_historie_uzivatelu, borrowers, items
 where 
 tmp_historie_uzivatelu.borrowernumber = borrowers.userid
 and items.barcode = tmp_historie_uzivatelu.z30_barcode;
-```sql
+```
